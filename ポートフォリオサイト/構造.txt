@@ -1,0 +1,20 @@
+project/
+|-- src/
+|   |-- styles/
+|   |   |-- main.scss       // メインのSassファイル
+|   |
+|   |-- partials/          // パーシャルSassファイル（_で始まる）
+|   |   |-- _reset.scss    // リセットスタイル
+|   |   |-- _variables.scss // 変数の定義
+|   |   |-- _mixins.scss    // ミックスインの定義
+|   |   |-- ...            // その他のパーシャルファイル
+|
+|-- assets/
+|   |-- css/
+|   |   |-- main.css       // SassをコンパイルしたCSSファイル
+|   |-- images/
+|
+|-- index.html            // プロジェクトのHTMLファイル
+|-- package.json          // プロジェクトの依存関係やスクリプトの管理
+|-- node_modules/         // Node.jsモジュールがインストールされるディレクトリ
+|-- .gitignore            // Gitで無視するファイルやディレクトリを指定
