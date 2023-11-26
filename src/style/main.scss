@@ -103,13 +103,12 @@ body {
   overflow: hidden;
   z-index: -1;
   // 方眼背景  //
-background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
+  background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
     linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
   background-size: 16px 16px;
   background-repeat: repeat;
   background-position: center center;
 
-  /* 以下任意のスタイル */
   padding: 20px;
 
   .main-title {
@@ -396,6 +395,7 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
 
       &-txt {
         width: 600px;
+        font-family: Noto Sans;
         @media only screen and (max-width: 480px) {
           width: 100%;
           margin: 0 auto;
@@ -796,6 +796,7 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
 
       &-txt {
         margin-top: 80px;
+        font-family: Noto Sans;
 
         p {
           font-family: 'Inter';
@@ -934,6 +935,10 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
             display: flex;
             align-items: flex-start;
             margin-top: -10px;
+            font-family: Inter;
+            @media only screen and (max-width: 480px) {
+              margin-top: 20px;
+            }
 
             &-date {
               width: 200px;
@@ -947,6 +952,9 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
 
             &-scale {
               padding: 0 20px;
+              @media only screen and (max-width: 480px) {
+                padding: 0 10px;
+              }
             }
 
             &-detail {
@@ -956,6 +964,9 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
                 font-weight: 400;
                 line-height: 21px;
                 letter-spacing: 1.92px;
+                @media only screen and (max-width: 480px) {
+                  font-size: 18px;
+                }
               }
               &-txt {
                 margin-top: 20px;
@@ -964,6 +975,9 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
                 font-weight: 400;
                 line-height: 23px;
                 letter-spacing: 1.28px;
+                @media only screen and (max-width: 480px) {
+                  font-size: 16px;
+                }
               }
             }
           }
@@ -1007,6 +1021,7 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
             &-h2 {
               margin-top: 20px;
               font-size: 18px;
+              font-family: Inter;
               font-style: normal;
               font-weight: 700;
               line-height: normal;
@@ -1016,6 +1031,7 @@ background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 ca
 
             &-txt {
               margin-top: 20px;
+              font-family: Inter;
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
