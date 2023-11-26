@@ -1,0 +1,98 @@
+// _reset.scss
+
+// ページの外側の余白とパディングをリセット
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+// リストのスタイルをリセット
+ul,
+ol {
+    list-style: none;
+}
+
+// リンクのスタイルをリセット
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// テキスト関連の要素のデフォルトのスタイルをリセット
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+// インライン要素の余白をリセット
+img,
+iframe,
+small,
+select {
+    margin: 0;
+}
+
+// ボックスモデルのスタイルをリセット
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+// フォーム関連の要素のスタイルをリセット
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+// ボタン要素のスタイルをリセット
+button {
+    overflow: visible;
+}
+
+// テキストエリアでの垂直方向のリサイズをリセット
+textarea {
+    resize: vertical;
+}
+
+// 透明度の設定
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"] {
+    opacity: 1;
+}
