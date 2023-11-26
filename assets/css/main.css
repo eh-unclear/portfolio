@@ -805,7 +805,7 @@ body {
   font-family: Noto Sans;
 }
 .about-content .sec-top-txt p {
-  font-family: "Inter";
+  font-family: Noto Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -815,7 +815,7 @@ body {
   margin-top: 60px;
 }
 .about-content .sec-ttl {
-  font-family: "Noto Sans", sans-serif;
+  font-family: Noto Sans;
   font-size: 80px;
   font-style: normal;
   font-weight: 500;
