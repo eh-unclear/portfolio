@@ -532,6 +532,7 @@ body {
 }
 .main-content .sec-work-slider {
   overflow-x: scroll;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .main-content .sec-work-slider-item {
