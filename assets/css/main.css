@@ -271,6 +271,7 @@ body {
   }
 }
 .main-visual-scroll p {
+  font-family: Noto Sans;
   font-size: 8px;
   font-style: normal;
   font-weight: 300;
@@ -501,6 +502,7 @@ body {
   position: absolute;
   top: 40px;
   left: -40px;
+  font-family: Noto Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -549,6 +551,7 @@ body {
 }
 .main-content .sec-work-slider-item-li-detail-ttl {
   margin-top: 20px;
+  font-family: Noto Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -556,6 +559,7 @@ body {
 }
 .main-content .sec-work-slider-item-li-detail-txt {
   margin-top: 10px;
+  font-family: Noto Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -700,11 +704,13 @@ body {
   }
 }
 .modal-content-item-li-text-ttl {
+  font-family: Noto Sans;
   font-size: 20px;
   font-weight: 600;
   text-align: left;
 }
 .modal-content-item-li-text-detail {
+  font-family: Noto Sans;
   padding-top: 40px;
   font-size: 16px;
   text-align: left;
@@ -868,6 +874,7 @@ body {
 }
 .about-content .sec-about-txt-name {
   font-size: 18px;
+  font-family: Noto Sans;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -875,6 +882,7 @@ body {
 }
 .about-content .sec-about-txt-detail {
   margin-top: 40px;
+  font-family: Noto Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
