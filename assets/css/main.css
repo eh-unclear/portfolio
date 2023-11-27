@@ -255,9 +255,19 @@ body {
 .main-visual .main-title-right text {
   fill: #000000;
 }
+@media only screen and (max-width: 480px) {
+  .main-visual .main-title-right text {
+    fill: #fff;
+  }
+}
 .main-visual .main-title-right text textPath {
   mix-blend-mode: exclusion;
   fill: #fff;
+}
+@media only screen and (max-width: 480px) {
+  .main-visual .main-title-right text textPath {
+    fill: #000;
+  }
 }
 .main-visual-scroll {
   position: absolute;
@@ -796,6 +806,7 @@ body {
   }
 }
 .about-content .main-nav .site-name {
+  font-family: Noto Sans;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -803,6 +814,7 @@ body {
   text-transform: uppercase;
 }
 .about-content .main-nav .site-menu {
+  font-family: Noto Sans;
   display: flex;
   align-content: space-between;
 }
