@@ -649,6 +649,9 @@ body {
   z-index: 100;
   overflow: auto;
 }
+.modal-other-inner {
+  justify-content: space-around;
+}
 .modal-bg {
   position: fixed;
   top: 0;
@@ -688,8 +691,8 @@ body {
 .modal-content-item-li-inner {
   width: 100%;
   height: 100%;
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   overflow: scroll;
 }
@@ -733,6 +736,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .modal-content-item-li-gif {
+    width: 100%;
     margin: 20px auto;
   }
 }

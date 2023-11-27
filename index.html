@@ -167,29 +167,27 @@
           </div>
         </div>
         <div class="sec-work-content">
-          <p class="sec-work-cate scroll-fade-up">MOVIE</p>
+          <p class="sec-work-cate scroll-fade-up">OTHER</p>
           <div class="sec-work-slider">
             <ul class="sec-work-slider-item">
-              <li class="sec-work-slider-item-li modal-open modal-open-movie">
+              <li class="sec-work-slider-item-li modal-open modal-open-other">
                 <p class="sec-work-slider-item-li-img scroll-fade-up"><img src="./assets/images/movie_01.jpg" alt=""></p>
                 <div class="sec-work-slider-item-li-detail scroll-fade-up">
                   <p class="sec-work-slider-item-li-detail-ttl">SNS広告動画</p>
-                  <!-- <p class="sec-work-slider-item-li-detail-txt"></p> -->
                 </div>
               </li>
-            </ul>
-          </div>
-        </div>
-        <div class="sec-work-content">
-          <p class="sec-work-cate scroll-fade-up">ANIMATION</p>
-          <div class="sec-work-slider">
-            <ul class="sec-work-slider-item">
-              <li class="sec-work-slider-item-li modal-open modal-open-anime">
+              <li class="sec-work-slider-item-li modal-open modal-open-other">
                 <p class="sec-work-slider-item-li-img scroll-fade-up"><img src="./assets/images/gif_04.gif" alt=""></p>
                 <div class="sec-work-slider-item-li-detail scroll-fade-up">
                   <p class="sec-work-slider-item-li-detail-ttl">記事LP内アニメーション</p>
-                  <!-- <p class="sec-work-slider-item-li-detail-txt">記事LP内のGIFアニメーションを作成しました。</p> -->
                 </div>
+              </li>
+              <li class="sec-work-slider-item-li modal-open modal-open-other">
+                <p class="sec-work-slider-item-li-img scroll-fade-up"><img src="./assets/images/title_01.jpg" alt=""></p>
+                <div class="sec-work-slider-item-li-detail scroll-fade-up">
+                  <p class="sec-work-slider-item-li-detail-ttl">記事LP内タイトルバナー</p>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -393,8 +391,8 @@
         </ul>
       </div>
     </div>
-    <!-- MOVIE_01 -->
-    <div class="modal modal-movie">
+    <!-- OTHER_01 -->
+    <div class="modal modal-other">
       <div class="modal-bg"></div>
       <div class="modal-content">
         <ul class="modal-content-item">
@@ -420,8 +418,9 @@
         </ul>
       </div>
     </div>
-    <!-- ANIMATION_01 -->
-    <div class="modal modal-anime">
+
+    <!-- OTHER_02 -->
+    <div class="modal modal-other">
       <div class="modal-bg"></div>
       <div class="modal-content">
         <ul class="modal-content-item">
@@ -430,21 +429,36 @@
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_01.gif" alt=""></p>
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_02.gif" alt=""></p>
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_03.gif" alt=""></p>
-            <!-- </div>
-            <div class="modal-content-item-li-inner"> -->
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_04.gif" alt=""></p>
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_05.gif" alt=""></p>
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_06.gif" alt=""></p>
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_07.gif" alt=""></p>
               <p class="modal-content-item-li-gif"><img src="./assets/images/gif_08.gif" alt=""></p>
-              <!-- <div class="modal-content-item-li-text">
-                <p class="modal-content-item-li-text-ttl">機能アイコン</p>
-                <p class="modal-content-item-li-text-detail">
-                  素材の機能性を伝えるアイコンをデザインしました。<br><br>
-                  制作時期：2022年<br>
-                  使用ツール：Illustrator
-                </p>
-              </div> -->
+            </div>
+            <button class="modal-close">×</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- OTHER_03 -->
+    <div class="modal modal-other">
+      <div class="modal-bg"></div>
+      <div class="modal-content">
+        <ul class="modal-content-item">
+          <li class="modal-content-item-li">
+            <div class="modal-content-item-li-inner">
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_02.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_03.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_04.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_05.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_06.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_07.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_08.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_09.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_10.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_11.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_12.jpg" alt=""></p>
+              <p class="modal-content-item-li-img"><img src="./assets/images/title_13.jpg" alt=""></p>
             </div>
             <button class="modal-close">×</button>
           </li>
@@ -523,13 +537,11 @@
     // モーダル  //
     var trigger_web = $('.modal-open-web'),
         trigger_graph = $('.modal-open-graph'),
-        trigger_movie = $('.modal-open-movie'),
-        trigger_anime = $('.modal-open-anime'),
+        trigger_other = $('.modal-open-other'),
 
         wrapper_web = $('.modal-web'),
         wrapper_graph = $('.modal-graph'),
-        wrapper_movie = $('.modal-movie'),
-        wrapper_anime = $('.modal-anime'),
+        wrapper_other = $('.modal-other'),
 
         layer = $('.modal-bg'),
         // container = $('.modal__container'),
@@ -554,19 +566,10 @@
       $('html, body').css('overflow', 'hidden');
     });
 
-    // movie
-    $(trigger_movie).click(function () {
+    // other
+    $(trigger_other).click(function () {
       var index = $(this).index();
-      $(wrapper_movie).eq(index).fadeIn(400);
-
-      // サイトのスクロールを禁止にする
-      $('html, body').css('overflow', 'hidden');
-    });
-
-    // animation
-    $(trigger_anime).click(function () {
-      var index = $(this).index();
-      $(wrapper_anime).eq(index).fadeIn(400);
+      $(wrapper_other).eq(index).fadeIn(400);
 
       // サイトのスクロールを禁止にする
       $('html, body').css('overflow', 'hidden');
@@ -574,7 +577,7 @@
 
     // 『背景』と『モーダルを閉じるボタン』をクリックしたら、『モーダル本体』を非表示
     $(layer).add(close).click(function () {
-      $(wrapper_web).add(wrapper_graph).add(wrapper_movie).add(wrapper_anime).fadeOut(400);
+      $(wrapper_web).add(wrapper_graph).add(wrapper_other).fadeOut(400);
 
       // サイトのスクロール禁止を解除する
       $('html, body').removeAttr('style');
