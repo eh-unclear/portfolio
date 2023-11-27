@@ -415,7 +415,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .main-content .sec-ttl {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 .main-content .sec-about {
@@ -883,7 +883,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .about-content .sec-ttl {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 .about-content .sec-about {
