@@ -617,6 +617,7 @@ body {
 }
 .site-footer-menu-li {
   margin-top: 10px;
+  font-family: Noto Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -629,6 +630,7 @@ body {
   line-height: normal;
 }
 .site-footer-copy {
+  font-family: Noto Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
