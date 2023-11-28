@@ -465,6 +465,189 @@ body {
     }
 
 
+    //  CAN DO  //
+    &-can {
+      max-width: 1200px;
+      margin: 0 auto;
+
+      &-content {
+        width: 100%;
+        margin: 80px auto 0;
+
+        @media only screen and (max-width: 480px) {
+          margin: 40px auto 0;
+        }
+
+        &-item {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          @media only screen and (max-width: 480px) {
+            display: block;
+          }
+
+          &-li {
+            width: 320px;
+            margin-right: 40px;
+
+            @media only screen and (max-width: 480px) {
+              margin: 0 auto;
+            }
+
+            &:nth-of-type(3) {
+              margin-right: 0;
+            }
+
+            &-img {
+              width: 320px;
+              height: 300px;
+              margin: 0 auto;
+
+              img {
+                width: 100%;
+              }
+            }
+
+            &-h2 {
+              margin-top: 20px;
+              color: #000;
+              text-align: center;
+              font-family: Noto Sans;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 2.16px;
+            }
+
+            &-txt {
+              margin-top: 10px;
+              color: #000;
+              font-family: Noto Sans;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 26px;
+              letter-spacing: 1.92px;
+              text-align: center;
+            }
+
+            &-tool {
+              color: #ccc;
+              font-family: Noto Sans;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 1.92px;
+              text-align: center;
+            }
+          }
+        }
+
+        &-skill {
+          margin-top: 80px;
+
+          @media only screen and (max-width: 480px) {
+            width: 90%;
+            margin: 80px auto 0;
+          }
+
+          &-item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            @media only screen and (max-width: 480px) {
+              display: block;
+            }
+
+            &-li {
+              display: flex;
+              align-items: center;
+              margin: 20px 0;
+
+              &-icon {
+                margin-right: 10px;
+              }
+
+              &-meter {
+                position: relative;
+                display: inline-block;
+                width: 220px;
+                height: 5px;
+                background: #fff;
+                border: 1px solid #000;
+                border-radius: 100px;
+
+                @media only screen and (max-width: 480px) {
+                  width: 90%;
+                  margin: 0 auto;
+                }
+
+                span {
+                  position: absolute;
+                  display: inline-block;
+                  content: '';
+                  height: 4px;
+                  background: #000;
+                }
+
+                &-ps {
+                  span {
+                    width: 80%;
+                  }
+                }
+
+                &-ai {
+                  span {
+                    width: 70%;
+                  }
+                }
+
+                &-xd {
+                  span {
+                    width: 70%;
+                  }
+                }
+
+                &-ae {
+                  span {
+                    width: 70%;
+                  }
+                }
+
+                &-pr {
+                  span {
+                    width: 50%;
+                  }
+                }
+
+                &-fig {
+                  span {
+                    width: 40%;
+                  }
+                }
+
+                &-bl {
+                  span {
+                    width: 30%;
+                  }
+                }
+
+                &-vs {
+                  span {
+                    width: 70%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
     // WORK  //
 
     &-work {
