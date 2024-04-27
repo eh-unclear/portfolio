@@ -126,6 +126,7 @@ body {
   position: relative;
 }
 .loader-img {
+  filter: grayscale(100%);
   animation-name: fadeUpAnime;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
