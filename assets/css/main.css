@@ -242,10 +242,6 @@ body {
   border: 8px solid #111;
   overflow: hidden;
   z-index: -1;
-  background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)), linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
-  background-size: 12px 12px;
-  background-repeat: repeat;
-  background-position: center center;
 }
 .main-visual .main-title {
   position: absolute;
